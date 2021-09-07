@@ -23,7 +23,10 @@
       href="assets/plugins/bootstrap/css/bootstrap.min.css"
     />
     <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/custom-1.css" />
+    <link id="theme-style" rel="stylesheet" href="assets/css/custom-2.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -71,6 +74,7 @@
           </ul>
         </div>
         <!--//contact-container-->
+
         <div class="education-container container-block">
           <h2 class="container-block-title">Education</h2>
           <div class="item">
@@ -107,7 +111,7 @@
             <li>German <span class="lang-desc">(Basic)</span></li>
           </ul>
         </div>
-        <!--//languages-->
+        <!--//languages-container-->
 
         <div class="languages-container container-block">
           <h2 class="container-block-title">Main Human skills</h2>
@@ -117,7 +121,7 @@
             <li>Determination</li>
           </ul>
         </div>
-        <!--//languages-->
+        <!--//human-skills-->
 
         <div class="interests-container container-block">
           <h2 class="container-block-title">Interests</h2>
@@ -151,7 +155,7 @@
           </div>
           <!--//summary-->
         </section>
-        <!--//section-->
+        <!--//summary-section-->
 
         <section class="section experiences-section">
           <h2 class="section-title">
@@ -162,155 +166,230 @@
           <div class="item">
             <div class="meta">
               <div class="upper-row">
-                <h3 class="job-title">Backend Engineer</h3>
-                <div class="time">July 2017 - Present</div>
+                <div data-bs-toggle="collapse" href="#loadsmartDetails">
+                  <h3 class="job-title">
+                    <i class="fas fa-chevron-right fa-xs""></i>
+                    Loadsmart
+                  </h3>
+                  <div class="time">July 2017 - March 2021</div>
+                </div>
               </div>
-              <!--//upper-row-->
-              <div class="company">Loadsmart - New York, US</div>
+              <div class="company">New York, US</div>
             </div>
             <!--//meta-->
-            <div class="details">
-              <p>
-                Backend engineer at Loadsmart, a technology logistics company.
-                Activities related with:
-              </p>
-              <p>
-                New projects: given the requirements, build the architecture for
-                new projects, creating tech specifications, defining due dates,
-                developing the stories and presenting the results.
-              </p>
-              <p>
-                Software development for an internal Truck Management System
-                written in Python using Django and Django REST Framework:
-                architectural decisions, software planning, creation of new
-                features, maintenance, documentation and unit tests.
-              </p>
-              <p>
-                Build integrations with logistics partners to send and receive
-                data via APIs or webhooks.
-              </p>
-              <p>
-                Automation, helping the developers team implementing tools to
-                automate day to day work. For instance, participation in the
-                adoption of Peril in the organization to help automation in the
-                pull requests.
-              </p>
-              <p>
-                Recruitment: helping the HR team with recruitment of new
-                developers. Evaluating challenges and applying technical and
-                cultural fit interviews.
-              </p>
-              <p>
-                Mobile Team: responsible to maintain and create endpoints in the
-                company API to provide mobile applications data. Also, helping
-                to create a SDK in Swift for the iOS apps.
-              </p>
+
+            <div class="details collapse show" id="loadsmartDetails">
+              <div class="role">
+                <p data-bs-toggle="collapse" href="#loadsmartDrayage">
+                  <i class="fas fa-chevron-circle-right fa-xs"></i>
+                  <strong> Backend Engineer at Drayage Squad </strong>
+                  Mon YYYY - Mon YYYY
+                </p>
+                <div class="collapse show" id="loadsmartDrayage">
+                  <p>
+                    Backend engineer at Loadsmart, a technology logistics company.
+                    Activities related with:
+                  </p>
+                  <p>
+                    New projects: given the requirements, build the architecture for
+                    new projects, creating tech specifications, defining due dates,
+                    developing the stories and presenting the results.
+                  </p>
+                  <p>
+                    Software development for an internal Truck Management System
+                    written in Python using Django and Django REST Framework:
+                    architectural decisions, software planning, creation of new
+                    features, maintenance, documentation and unit tests.
+                  </p>
+                  <p>
+                    Build integrations with logistics partners to send and receive
+                    data via APIs or webhooks.
+                  </p>
+                  <p>
+                    Automation, helping the developers team implementing tools to
+                    automate day to day work. For instance, participation in the
+                    adoption of Peril in the organization to help automation in the
+                    pull requests.
+                  </p>
+                  <p>
+                    Recruitment: helping the HR team with recruitment of new
+                    developers. Evaluating challenges and applying technical and
+                    cultural fit interviews.
+                  </p>
+                  <p>
+                    Mobile Team: responsible to maintain and create endpoints in the
+                    company API to provide mobile applications data. Also, helping
+                    to create a SDK in Swift for the iOS apps.
+                  </p>
+
+                  <p>
+                    <strong>Tech Stack:</strong>
+                  </p>
+                </div>
+              </div>
+              <!--//role-loadsmart-drayage-->
+
+              <div class="role">
+                <p data-bs-toggle="collapse" href="#loadsmartMobile">
+                  <i class="fas fa-chevron-circle-right fa-xs"></i>
+                  <strong> Backend Engineer at Mobile Squad </strong>
+                  Mon YYYY - Mon YYYY
+                </p>
+
+                <div class="collapse show" id="loadsmartMobile">
+                  blah blha
+                </div>
+              </div>
+              <!--//role-loadsmart-mobile-->
+
             </div>
-            <!--//details-->
+            <!--//loadsmart-details-->
           </div>
-          <!--//item-->
+          <!--//loadsmart-item-->
 
           <div class="item">
             <div class="meta">
               <div class="upper-row">
-                <h3 class="job-title">Rails Developer</h3>
-                <div class="time">March 2015 – November 2016</div>
+                <div data-bs-toggle="collapse" href="#analogyDetails">
+                  <h3 class="job-title">
+                    <i class="fas fa-chevron-right fa-xs""></i>
+                    Analogy Co.
+                  </h3>
+                  <div class="time">March 2015 – November 2016</div>
+                </div>
               </div>
               <!--//upper-row-->
-              <div class="company">Analogy Co. - Budapest, Hungary</div>
+              <div class="company">Budapest, Hungary</div>
             </div>
             <!--//meta-->
-            <div class="details">
-              <p>
-                Web development at Analogy.co, an IT provider for human
-                resources and knowledge management solutions. Developing,
-                maintenance and tests for a Ruby on Rails application based on
-                artificial intelligence. Activities related to architectural
-                decisions, software planning, creation of new features, parallel
-                programming (workers), search engine and user interface link,
-                user interface improvements, application restructuring, unit
-                tests and a slight notion about machine learning. Remote work
-                from March 2016 to November 2016.
-              </p>
+
+            <div class="details collapse show" id="analogyDetails">
+              <div class="role">
+                <p data-bs-toggle="collapse" href="#analogyRailsDeveloper">
+                  <i class="fas fa-chevron-circle-right fa-xs"></i>
+                  <strong> Rails Developer </strong>
+                </p>
+                <div class="collapse show" id="analogyRailsDeveloper">
+                  <p>
+                    Web development at Analogy.co, an IT provider for human
+                    resources and knowledge management solutions. Developing,
+                    maintenance and tests for a Ruby on Rails application based on
+                    artificial intelligence. Activities related to architectural
+                    decisions, software planning, creation of new features, parallel
+                    programming (workers), search engine and user interface link,
+                    user interface improvements, application restructuring, unit
+                    tests and a slight notion about machine learning. Remote work
+                    from March 2016 to November 2016.
+                  </p>
+                </div>
+              </div>
+
             </div>
             <!--//details-->
           </div>
-          <!--//item-->
+          <!--//analogy-item-->
 
           <div class="item">
             <div class="meta">
               <div class="upper-row">
-                <h3 class="job-title">Web Developer</h3>
-                <div class="time">August 2014 – December 2014</div>
+                <div data-bs-toggle="collapse" href="#chaordicDetails">
+                  <h3 class="job-title">
+                    <i class="fas fa-chevron-right fa-xs""></i>
+                    Chaordic
+                  </h3>
+                  <div class="time">August 2012 – December 2014</div>
+                </div>
               </div>
               <!--//upper-row-->
-              <div class="company">Chaordic - Florianópolis, Brazil</div>
+              <div class="company">Florianópolis, Brazil</div>
             </div>
             <!--//meta-->
-            <div class="details">
-              <p>
-                Web development at Chaordic, a recommender systems company.
-                Activities related to manipulation of products performance
-                indicators; performance monitoring of the organization's
-                dashboard; billing; big data; internationalization of systems
-                and infrastructure virtualization.
-              </p>
+
+            <div class="details collapse show" id="chaordicDetails">
+              <div class="role">
+                <p data-bs-toggle="collapse" href="#chaordicCLT">
+                  <i class="fas fa-chevron-circle-right fa-xs"></i>
+                  <strong> Web Developer </strong>
+                  August 2014 – December 2014
+                </p>
+
+                <div class="collapse show" id="chaordicCLT">
+                  <p>
+                    Web development at Chaordic, a recommender systems company.
+                    Activities related to manipulation of products performance
+                    indicators; performance monitoring of the organization's
+                    dashboard; billing; big data; internationalization of systems
+                    and infrastructure virtualization.
+                  </p>
+                </div>
+              </div>
+
+
+              <div class="role">
+                <p data-bs-toggle="collapse" href="#chaordicIntern">
+                  <i class="fas fa-chevron-circle-right fa-xs"></i>
+                  <strong> Web Developer Trainee </strong>
+                  August 2012 – July 2014
+                </p>
+
+                <div class="collapse show" id="chaordicIntern">
+                  <p>
+                    Web development at Chaordic, a recommender systems company.
+                    Activities related to creation and customization of web widgets;
+                    recommender systems integration; participation in the
+                    development of a portal integration; big data; handling
+                    performance indicators of the company's products; participation
+                    in the development of a dashboard and performance monitoring of
+                    this.
+                  </p>
+                </div>
+              </div>
             </div>
             <!--//details-->
           </div>
-          <!--//item-->
+          <!--//chaordic-item-->
 
           <div class="item">
             <div class="meta">
               <div class="upper-row">
-                <h3 class="job-title">Web Developer Trainee</h3>
-                <div class="time">August 2012 – July 2014</div>
-              </div>
-              <!--//upper-row-->
-              <div class="company">Chaordic - Florianópolis, Brazil</div>
-            </div>
-            <!--//meta-->
-            <div class="details">
-              <p>
-                Web development at Chaordic, a recommender systems company.
-                Activities related to creation and customization of web widgets;
-                recommender systems integration; participation in the
-                development of a portal integration; big data; handling
-                performance indicators of the company's products; participation
-                in the development of a dashboard and performance monitoring of
-                this.
-              </p>
-            </div>
-            <!--//details-->
-          </div>
-          <!--//item-->
-
-          <div class="item">
-            <div class="meta">
-              <div class="upper-row">
-                <h3 class="job-title">Scientific Initiation Scholarship</h3>
-                <div class="time">November 2010 – June 2012</div>
+                <div data-bs-toggle="collapse" href="#labsecDetails">
+                  <h3 class="job-title">
+                    <i class="fas fa-chevron-right fa-xs""></i>
+                    LabSEC, INE/UFSC
+                  </h3>
+                  <div class="time">November 2010 – June 2012</div>
+                </div>
               </div>
               <!--//upper-row-->
               <div class="company">
-                LabSEC, INE/UFSC - Florianópolis, Brazil
+                Florianópolis, Brazil
               </div>
             </div>
             <!--//meta-->
-            <div class="details">
-              <p>
-                Software development in the Hardware Security Module ASI-HSM
-                project, in cryptographic keys and digital certificates
-                lifecycle management at Computer Security Laboratory - LabSEC,
-                Department of Informatics and Statistics (INE), Federal
-                University of Santa Catarina (UFSC)
-              </p>
+            <div class="details collapse show" id="labsecDetails">
+              <div class="role">
+                <p data-bs-toggle="collapse" href="#labsecIntern">
+                  <i class="fas fa-chevron-circle-right fa-xs"></i>
+                  <strong> Scientific Initiation Scholarship </strong>
+                </p>
+
+                <div class="collapse show" id="labsecIntern">
+                  <p>
+                    Software development in the Hardware Security Module ASI-HSM
+                    project, in cryptographic keys and digital certificates
+                    lifecycle management at Computer Security Laboratory - LabSEC,
+                    Department of Informatics and Statistics (INE), Federal
+                    University of Santa Catarina (UFSC)
+                  </p>
+                </div>
+              </div>
             </div>
             <!--//details-->
           </div>
-          <!--//item-->
+          <!--//labsec-item-->
+
         </section>
-        <!--//section-->
+        <!--//experiences-section-->
 
         <section class="skills-section section">
           <h2 class="section-title">
@@ -547,7 +626,7 @@
           </div>
           <!--//item-->
         </section>
-        <!--//section-->
+        <!--//community-section-->
 
         <section class="section projects-section">
           <h2 class="section-title">
@@ -594,7 +673,7 @@
           </div>
           <!--//item-->
         </section>
-        <!--//section-->
+        <!--//courses-section-->
 
         <section class="section projects-section">
           <h2 class="section-title">
@@ -614,7 +693,7 @@
           </div>
           <!--//item-->
         </section>
-        <!--//section-->
+        <!--//publications-section-->
       </div>
       <!--//main-body-->
     </div>
