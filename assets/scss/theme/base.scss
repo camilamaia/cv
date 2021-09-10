@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Roboto', sans-serif;
     color: $text-color-secondary;
     background: $smoky-white;
     font-size: 14px;
@@ -129,7 +129,7 @@ p {
             color: rgba(256, 256, 256, 0.6);
         }
     }
-    
+
     .languages-list {
         margin-bottom: 0;
         li {
@@ -139,7 +139,7 @@ p {
             }
         }
     }
-    
+
     .interests-list {
         margin-bottom: 0;
         li {
@@ -174,10 +174,10 @@ p {
             text-align: center;
             font-size: 16px;
             position: relative;
-            top: -8px;
+            top: -2px;
             .svg-inline--fa {
 	            font-size: 14px;
-	            margin-top: 6px;
+	            margin-top: 8px;
             }
         }
 
@@ -185,7 +185,7 @@ p {
     .section {
         margin-bottom: 60px;
     }
-    
+
     .experiences-section {
         .item {
             margin-bottom: 30px;
@@ -213,7 +213,7 @@ p {
         margin-bottom: 10px;
         color: $text-grey;
     }
-    
+
     .project-title {
         font-size: 16px;
         font-weight: 400;
@@ -228,7 +228,7 @@ p {
             margin-bottom: 15px;
         }
     }
-    
+
 }
 
 
@@ -242,14 +242,14 @@ p {
         margin-top: 0;
         margin-bottom: 12px;
     }
-    
-    
+
+
     .level-bar {
         height: 12px;
         background: $smoky-white;
         @include border-radius(2px);
     }
-    
+
     .theme-progress-bar {
 	    background: lighten($theme-color, 10%);
     }
@@ -264,11 +264,11 @@ p {
     .copyright {
         line-height: 1.6;
         color: $text-color-secondary;
-        font-size: 13px;       
-    }  
-    
+        font-size: 13px;
+    }
+
     .fa-heart {
         color: $heart;
     }
-    
+
 }
