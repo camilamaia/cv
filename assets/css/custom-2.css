@@ -143,10 +143,10 @@ p {
       text-align: center;
       font-size: 16px;
       position: relative;
-      top: -8px; }
+      top: -2px; }
       .main-wrapper .section-title .icon-holder .svg-inline--fa {
         font-size: 14px;
-        margin-top: 6px; }
+        margin-top: 8px; }
   .main-wrapper .section {
     margin-bottom: 60px; }
   .main-wrapper .experiences-section .item {
@@ -231,5 +231,11 @@ p {
     float: left;
     width: 30%;
     margin-bottom: 0; } }
+.sidebar-wrapper {
+  left: 0; }
+
+.main-wrapper {
+  padding: 30px;
+  padding-left: 270px; }
 
 /*# sourceMappingURL=custom-2.css.map */
