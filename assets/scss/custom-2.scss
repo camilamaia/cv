@@ -16,3 +16,12 @@ $heart: #fb866a;
 @import "theme/mixins";
 @import "theme/base";
 @import "theme/responsive";
+
+.sidebar-wrapper{
+    left: 0;
+}
+
+.main-wrapper {
+    padding: 30px;
+    padding-left: 270px;
+}
