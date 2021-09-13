@@ -231,11 +231,12 @@ p {
     float: left;
     width: 30%;
     margin-bottom: 0; } }
-.sidebar-wrapper {
-  left: 0; }
+@media (min-width: 767.98px) {
+  .sidebar-wrapper {
+    left: 0; }
 
-.main-wrapper {
-  padding: 30px;
-  padding-left: 270px; }
+  .main-wrapper {
+    padding: 30px;
+    padding-left: 270px; } }
 
 /*# sourceMappingURL=custom-2.css.map */
