@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #39383a;
   text-decoration: none; }
+
   a:hover {
     text-decoration: underline;
     color: #131313;
@@ -148,7 +149,7 @@ p {
         font-size: 14px;
         margin-top: 8px; }
   .main-wrapper .section {
-    margin-bottom: 60px; }
+    margin-bottom: 10px; }
   .main-wrapper .experiences-section .item {
     margin-bottom: 30px; }
   .main-wrapper .upper-row {
@@ -178,6 +179,9 @@ p {
     margin-bottom: 30px; }
   .main-wrapper .projects-section .item {
     margin-bottom: 15px; }
+  .main-wrapper a{
+    text-decoration: underline;
+  }
 
 .skillset .item {
   margin-bottom: 15px;
